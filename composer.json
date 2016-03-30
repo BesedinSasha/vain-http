@@ -18,6 +18,10 @@
         "php": ">=5.6.0",
         "psr/http-message": "~1.0"
     },
+    "suggest": {
+        "vain/phalcon-psr7": "PSR7 implementation for Phalcon",
+        "symfony/http-foundation": "PSR7 implementation for Phalcon"
+    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
