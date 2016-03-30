@@ -20,7 +20,7 @@
     },
     "suggest": {
         "vain/phalcon-psr7": "PSR7 implementation for Phalcon",
-        "symfony/http-foundation": "PSR7 implementation for Phalcon"
+        "symfony/http-foundation": "Symfony http-foundation package"
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
