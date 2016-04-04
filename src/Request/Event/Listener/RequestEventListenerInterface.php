@@ -10,12 +10,12 @@ namespace Vain\Http\Request\Event\Listener;
 
 use Psr\Http\Message\RequestInterface;
 
-interface VainHttpRequestEventListenerInterface
+interface RequestEventListenerInterface
 {
     /**
      * @param RequestInterface $request
      * 
-     * @return VainHttpRequestEventListenerInterface
+     * @return RequestEventListenerInterface
      */
     public function onRequest(RequestInterface $request);
 }

@@ -10,12 +10,12 @@ namespace Vain\Http\Response\Event\Listener;
 
 use Psr\Http\Message\ResponseInterface;
 
-interface VainHttpResponseEventListenerInterface
+interface ResponseEventListenerInterface
 {
     /**
      * @param ResponseInterface $response
      * 
-     * @return VainHttpResponseEventListenerInterface
+     * @return ResponseEventListenerInterface
      */
     public function onResponse(ResponseInterface $response);
 }
